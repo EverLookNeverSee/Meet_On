@@ -1,5 +1,14 @@
 {% extends 'main.html' %}
+{% load static %}
 
 {% block content %}
-    <h2>Lobby</h2>
+    <main>
+        <section id="form-container">
+            <img id="logo" src="{% static 'images/chat-icon.png' %}" alt="logo">
+            <div>
+                <h1>Welcome to MeetOn</h1>
+                <p>Video Communication Service</p>
+            </div>
+        </section>
+    </main>
 {% endblock content %}
